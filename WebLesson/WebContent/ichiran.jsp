@@ -16,6 +16,7 @@
 
 <% for(Word word : WordList){
 	out.println(word);
+	out.println("<br>");
 	}
 %>
 
