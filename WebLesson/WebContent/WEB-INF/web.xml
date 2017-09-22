@@ -4,8 +4,24 @@
   	<servlet-name>resist</servlet-name>
   	<servlet-class>JspLesson01.ResistServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>list</servlet-name>
+  	<servlet-class>JspLesson01.ListServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>word</servlet-name>
+  	<servlet-class>JspLesson01.Word</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>resist</servlet-name>
   	<url-pattern>/resist</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>list</servlet-name>
+  	<url-pattern>/list</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>word</servlet-name>
+  	<url-pattern>/word</url-pattern>
   </servlet-mapping>
 </web-app>
