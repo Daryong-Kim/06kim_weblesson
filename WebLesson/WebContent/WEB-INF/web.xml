@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
   <servlet>
+  	<servlet-name>select</servlet-name>
+  	<servlet-class>JspLesson01.SelectServlet</servlet-class>
+  </servlet>
+  <servlet>
   	<servlet-name>resist</servlet-name>
   	<servlet-class>JspLesson01.ResistServlet</servlet-class>
   </servlet>
@@ -12,6 +16,14 @@
   	<servlet-name>word</servlet-name>
   	<servlet-class>JspLesson01.Word</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>delete</servlet-name>
+  	<servlet-class>JspLesson01.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>select</servlet-name>
+  	<url-pattern>/select</url-pattern>
+  </servlet-mapping>
   <servlet-mapping>
   	<servlet-name>resist</servlet-name>
   	<url-pattern>/resist</url-pattern>
@@ -23,5 +35,9 @@
   <servlet-mapping>
   	<servlet-name>word</servlet-name>
   	<url-pattern>/word</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>delete</servlet-name>
+  	<url-pattern>/delete</url-pattern>
   </servlet-mapping>
 </web-app>

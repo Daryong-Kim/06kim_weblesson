@@ -1,0 +1,26 @@
+.header{
+	display :flex;
+	margin-bottom :20px;
+}
+
+.header_sel{
+	display :flex;
+	margin-bottom :20px;
+}
+
+.title{
+	font-size :30px;
+	font-family :'Times New Roman';
+}
+
+.close_image{
+	width :500px;
+	background-image :url(image/dic1.gif);
+	background-repeat :no-repeat;
+}
+
+.open_image{
+	width :500px;
+	background-image :url(image/dic2.gif);
+	background-repeat :no-repeat;
+}

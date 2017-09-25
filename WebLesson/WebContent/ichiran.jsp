@@ -20,6 +20,6 @@
 	}
 %>
 
-<p><a href="index.html">操作選択に戻る</a></p>
+<p><a href="select.jsp">操作選択に戻る</a></p>
 </body>
 </html>

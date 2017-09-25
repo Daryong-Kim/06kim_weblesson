@@ -2,13 +2,21 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="style.css" type="text/css">
 <title>index</title>
 </head>
 <body>
-<h2>〇操作を選択して下さい〇</h2>
+<div class="header">
+<h2 class="title">Original Dictionary</h2>
+<div class="close_image"></div>
+</div>
+<h2>〇ユーザーIDとパスワードを入力して下さい〇</h2>
+<form action="select" method="post">
 	<table>
-	<tr><th><a href="touroku.html">単語登録</a></th></tr>
-	<tr><th><a href="list">一覧表示</a></th></tr>
+	<tr><th>ユーザーID</th><td><input type="text" name="id"></td></tr>
+	<tr><th>パスワード</th><td><input type="password" name="pass"></td></tr>
 	</table>
+	<input type="submit" value="ログイン">
+</form>
 </body>
 </html>

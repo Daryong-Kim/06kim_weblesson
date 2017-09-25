@@ -5,13 +5,22 @@
 <title>touroku</title>
 </head>
 <body>
-<h2>〇英単語・日本語を入力して下さい〇</h2>
+<h2>単語登録</h2>
+<h2>〇登録する英単語・日本語を入力して下さい〇</h2>
 <form action="resist" method="post">
 	<table>
 	<tr><th>英単語</th><td><input type="text" name="English"></td></tr>
 	<tr><th>日本語</th><td><input type="text" name="Japanese"></td></tr>
 	</table>
 	<input type="submit" value="登録">
+</form>
+<h2>単語削除</h2>
+<h2>〇削除したい単語を入力して下さい〇</h2>
+<form action="delete" method="post">
+	<table>
+	<tr><th>削除する単語</th><td><input type="text" name="delword"></td></tr>
+	</table>
+	<input type="submit" value="削除">
 </form>
 </body>
 </html>

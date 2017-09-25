@@ -17,7 +17,7 @@
 <p>登録件数は<%= count %>です。</p>
 
 <p><a href="touroku.html">登録に戻る</a></p>
-<p><a href="index.html">操作選択に戻る</a></p>
+<p><a href="select.jsp">操作選択に戻る</a></p>
 </body>
 
 </html>
